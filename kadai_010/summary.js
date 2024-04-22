@@ -1,11 +1,12 @@
 $(function () {
     $('#change-color').on('click', function () {
         $('#target').css('color', 'red');
+        alert('change-colorがクリックされました');
     });
 
     $('#change-text').on('click', function () {
         $('#target').css('color', 'red');
-        $('#targer').text('Hello!');
+        $('#target').text('Hello!');
     });
 
     $('#fade-out').on('click', function () {
